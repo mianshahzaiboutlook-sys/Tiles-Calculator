@@ -254,7 +254,7 @@ export default function HomePage() {
 
             <div className="mt-6 flex flex-wrap gap-3">
               <Link
-                href="/washroom-calculator"
+                href="/smart-calculator"
                 className="inline-flex items-center px-5 py-3 bg-white text-blue-700 rounded-full font-medium shadow hover:shadow-lg transition"
               >
                 Start Calculating
