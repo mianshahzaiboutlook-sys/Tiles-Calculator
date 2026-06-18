@@ -5,6 +5,10 @@ export const metadata = {
   title: "Jasim Tiles",
   description: "Jasim Tiles — Tile Management & Calculation Software",
 };
+<meta
+  name="google-site-verification"
+  content="4u6Z-tMyjx_WcYDl3Jo2cEgegMgeE02qGz28V3pTi4A"
+/>;
 
 export default function RootLayout({ children }) {
   return (

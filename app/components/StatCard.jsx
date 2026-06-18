@@ -15,7 +15,7 @@ export default function StatCard({
       <div className="flex items-baseline justify-between">
         <div>
           <div className="text-sm font-medium text-slate-500 flex items-center gap-2">
-            <span className="w-2 h-2 rounded-full bg-gradient-to-r from-sky-500 to-indigo-600 inline-block" />
+            <span className="w-2 h-2 rounded-full bg-linear-to-r from-sky-500 to-indigo-600 inline-block" />
             {title}
           </div>
           <div
