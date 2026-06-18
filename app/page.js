@@ -235,10 +235,13 @@ export default function HomePage() {
       ),
     },
   ];
-
+  <meta
+    name="google-site-verification"
+    content="4u6Z-tMyjx_WcYDl3Jo2cEgegMgeE02qGz28V3pTi4A"
+  />;
   return (
     <div className="bg-white min-h-screen">
-      <header className="relative overflow-hidden bg-gradient-to-r from-sky-600 via-indigo-600 to-blue-700 text-white">
+      <header className="relative overflow-hidden bg-linear-to-r from-sky-600 via-indigo-600 to-blue-700 text-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20 flex flex-col md:flex-row items-center gap-8">
           <div className="flex-1 bg-blue-600">
             <h1 className="text-3xl sm:text-5xl font-extrabold leading-tight">
@@ -469,7 +472,7 @@ export default function HomePage() {
         </section>
 
         {/* CTA */}
-        <section className="mt-12 bg-gradient-to-r from-sky-50 to-white p-6 rounded-lg flex flex-col sm:flex-row items-center justify-between gap-4">
+        <section className="mt-12 bg-linear-to-r from-sky-50 to-white p-6 rounded-lg flex flex-col sm:flex-row items-center justify-between gap-4">
           <div>
             <h3 className="text-lg font-semibold">Ready to Calculate Tiles?</h3>
             <p className="text-sm text-slate-600 mt-1">
